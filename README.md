@@ -22,10 +22,15 @@ A Raycast extension to generate random usernames, passwords, tokens, ports, and 
 ### Manual Installation
 
 ```bash
-git clone https://github.com/insv23/randomeverything.git
-cd randomeverything
+git clone https://github.com/insv23/RandomEverythingRaycast.git
+cd RandomEverythingRaycast
 npm install
 npm run dev
+```
+Ctrl c to terminate
+
+```bash
+npm run build
 ```
 
 ## Usage
