@@ -4,6 +4,7 @@ import {
 	TOKEN_CONFIG,
 	PORT_CONFIG,
 } from "./constants";
+import { randomUUID } from "node:crypto";
 
 /**
  * Generate a random username in the format "Name1234"
@@ -87,6 +88,14 @@ export const generatePort = (): string => {
 	} while (commonPorts.includes(port));
 
 	return port.toString();
+};
+
+/**
+ * Generate a UUID v4
+ * @returns The generated UUID
+ */
+export const generateUuidV4 = (): string => {
+	return randomUUID();
 };
 
 /**

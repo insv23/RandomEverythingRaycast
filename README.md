@@ -8,6 +8,7 @@ A Raycast extension to generate random usernames, passwords, tokens, ports, and 
 - **Secure Password Generation**: Generates strong passwords that include lowercase letters, uppercase letters, numbers, and symbols.
 - **Random Token Generation**: Creates cryptographically random tokens with configurable length.
 - **Port Number Generation**: Generates random port numbers while avoiding commonly used ports.
+- **UUID v4 Generation**: Generates a standard UUID v4.
 - **Copy to Clipboard**: Easily copy any generated value with a single click.
 - **Keyboard Shortcuts**: Regenerate values quickly using keyboard shortcuts.
 

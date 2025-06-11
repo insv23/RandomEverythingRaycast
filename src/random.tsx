@@ -5,6 +5,7 @@ import {
 	generatePassword,
 	generateToken,
 	generatePort,
+	generateUuidV4,
 } from "./utils/generators";
 
 export default function Command() {
@@ -14,6 +15,7 @@ export default function Command() {
 			<GeneratorItem title="Password" generator={generatePassword} />
 			<GeneratorItem title="Token" generator={generateToken} />
 			<GeneratorItem title="Port" generator={generatePort} />
+			<GeneratorItem title="UUID v4" generator={generateUuidV4} />
 		</List>
 	);
 }
